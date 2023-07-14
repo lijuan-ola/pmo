@@ -1,7 +1,10 @@
 name: Update Project Items
 on:
   workflow_dispatch:
-
+  schedule:
+    - cron: "0 14 * * *" # Runs every day at 22:00 UTC+8
+    - cron: "29 2 * * *" # Runs every day at 10:29 UTC+8
+  
 jobs:
   test:
     runs-on: ubuntu-latest
