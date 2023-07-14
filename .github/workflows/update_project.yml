@@ -1,0 +1,19 @@
+name: Update Project Items
+on:
+  workflow_dispatch:
+
+jobs:
+  test:
+    runs-on: self-hosted
+    steps:
+      - uses: olaola-chat/agilekit-ts@main
+        with:
+          ghToken: ${{ secrets.PAT_MANAGE_PROJECT }}
+          organization: olaola-chat
+          projectNumber: 109
+          upstreamProjectNumber: 109
+        
+
+          
+
+    
