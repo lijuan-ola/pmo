@@ -4,14 +4,14 @@ on:
 
 jobs:
   test:
-    runs-on: self-hosted
+    runs-on: ubuntu-latest
     steps:
       - uses: olaola-chat/agilekit-ts@main
         with:
           ghToken: ${{ secrets.PAT_MANAGE_PROJECT }}
           organization: olaola-chat
-          projectNumber: 109
-          upstreamProjectNumber: 109
+          projectNumber: 106
+          upstreamProjectNumber: 106
         
 
           
