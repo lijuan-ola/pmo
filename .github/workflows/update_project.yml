@@ -9,7 +9,7 @@ jobs:
   test:
     runs-on: ubuntu-latest
     steps:
-      - uses: olaola-chat/agilekit-ts@main
+      - uses: olaola-chat/agilekit-ts@beta
         with:
           ghToken: ${{ secrets.PAT_MANAGE_PROJECT }}
           organization: olaola-chat
