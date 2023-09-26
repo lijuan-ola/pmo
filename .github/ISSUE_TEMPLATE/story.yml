@@ -4,26 +4,26 @@ title: "story name "
 labels: "story"
 body:
 - type: textarea
-    attributes:
-      label: 需求复杂度
-      description: 描述需求的复杂程度
-    validations:
-      required: true
+attributes:
+label: 需求复杂度
+description: 描述需求的复杂程度
+validations:
+required: true
 - type: textarea
-    attributes:
-      label: 需求来源
-      description: 描述需求背景，处于什么背景下产生此需求
-    validations:
+attributes:
+label: 需求来源
+description: 描述需求背景，处于什么背景下产生此需求
+validations:
 - type: textarea
-      required: true
-    attributes:
-      label: 验收标准
-      description: 分条描述验收标准，可操作
-    validations:
-      required: true
+required: true
+attributes:
+label: 验收标准
+description: 分条描述验收标准，可操作
+validations:
+required: true
 - type: textarea
-    attributes:
-      label: 关联task
-      description: 需求对应的任务拆解
-    validations:
-      required: true
+attributes:
+label: 关联task
+description: 需求对应的任务拆解
+validations:
+required: true
