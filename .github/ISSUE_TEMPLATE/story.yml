@@ -4,7 +4,6 @@ title: "story: "
 labels: "story"
 body:
   - type: textarea
-    id: 需求复杂度
     attributes:
       label: 需求复杂度
       description: 描述需求的复杂程度
