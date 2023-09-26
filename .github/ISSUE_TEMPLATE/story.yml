@@ -1,6 +1,9 @@
 ---
-name:create a story
-description:story template
+name: User Story
+about: Create a user story
+title: 'As a ..., I want to ..., so I can ...'
+labels: "Story"
+
 ---
 
 ###需求复杂度
