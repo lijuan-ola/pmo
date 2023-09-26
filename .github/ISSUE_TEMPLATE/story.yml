@@ -14,7 +14,6 @@ body:
       label: 需求来源
       description: 描述需求背景，处于什么背景下产生此需求
     validations:
-      required: true
       - type: textarea
     attributes:
       label: 验收标准
