@@ -1,7 +1,19 @@
-name: story
-description: Create a story | 创建需求
-labels: ["bug", "triage"]
-body:
-  - type: textarea
-    attributes:
-      label: 需求复杂度
+---
+name: User Story
+about: Create a user story
+title: story template
+labels: "Story"
+
+---
+<!-- A well crafted user story is curcial for development and a successful delivery. Please fill in this form carefully. The paragraph and text in <> below are comments, no need to delete -->
+
+
+### 需求复杂度
+<!-- for developers to break down tasks if needed -->
+
+- [ ] 
+
+### 需求来源
+<!-- for developers to break down tasks if needed -->
+
+1. 
