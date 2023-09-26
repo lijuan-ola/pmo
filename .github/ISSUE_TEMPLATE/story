@@ -1,0 +1,7 @@
+name: story
+description: Create a story | 创建需求
+labels: ["bug", "triage"]
+body:
+  - type: textarea
+    attributes:
+      label: 需求复杂度
