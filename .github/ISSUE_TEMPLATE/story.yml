@@ -1,23 +1,8 @@
----
 name: Story
-about: 'create a story '
-title: "[story name]"
-labels: ''
-assignees: ''
-
----
-
-### 1、需求复杂度
-
-
-### 2、需求来源
-
-
-
-### 3、验收标准
-
-
-
-### 4、关联task
-
-
+description: Create a story | 创建一个story
+labels:
+body:
+- type: textarea
+    attributes:
+      label: 需求复杂度
+     
