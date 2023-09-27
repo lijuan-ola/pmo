@@ -2,10 +2,15 @@ name: Story
 description: Create a story | 创建一个story
 labels:
 body:
- - type: textarea
+ - type: dropdown
     attributes:
-      label: 需求复杂度
-      description: 请描述需求的复杂程度
+      label: 需求复杂程度
+      multiple: false
+      options:
+        - 简单
+        - 一般
+        - 复杂
+       
 
   - type: textarea
     attributes:
