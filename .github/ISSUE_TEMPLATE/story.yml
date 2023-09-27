@@ -11,9 +11,10 @@ body:
       label: 需求复杂度
       multiple: false
       options:
-        - 简单
-        - 一般
-        - 复杂
+        - 简单需求
+        - 普通需求
+        - 复杂需求
+        - 非常复杂需求
        
 
   - type: textarea
