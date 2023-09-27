@@ -8,7 +8,7 @@ body:
 
   - type: dropdown
     attributes:
-      label: 需求复杂度
+      label: 1、需求复杂度
       multiple: false
       options:
         - 简单需求
@@ -19,14 +19,14 @@ body:
 
   - type: textarea
     attributes:
-      label: 需求来源
+      label: 2、需求来源
       description: 请描述需求的背景/场景/产生的来源
     validations:
       required: true
 
   - type: textarea
     attributes:
-      label: 验收标准
+      label: 3、验收标准
       description: 请分条描述需求验收标准
       value: |
         1.
@@ -36,6 +36,6 @@ body:
 
   - type: textarea
     attributes:
-      label: 关联task
+      label: 4、关联task
       description: 请使用add tasklist方式关联此需求对应的任务
 
