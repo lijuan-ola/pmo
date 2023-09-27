@@ -1,7 +1,7 @@
 ---
 name: Story
 about: 'create a story '
-title: "[Story]"
+title: "[story name]"
 labels: ''
 assignees: ''
 
