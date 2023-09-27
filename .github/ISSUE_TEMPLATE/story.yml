@@ -1,19 +1,109 @@
-name: Story
-description: Create a story | 创建一个story
-labels:
+name: Bug
+description: Create a bug report | 报告问题
+labels: ["bug", "triage"]
 body:
- - type: dropdown
+  - type: markdown
     attributes:
-      label: 需求复杂程度
+      value: 请务必**认真填写**问题报告，**准确翔实**的报告对于定位和解决问题非常重要。英语熟练可使用英语
+
+  - type: dropdown
+    attributes:
+      label: 客服
       multiple: false
       options:
-        - 简单
-        - 一般
-        - 复杂
-       
+        - Esthel Tan Khai Sxian 桂花
+        - Leong Chi Yin 天依
+        - Shuyi Evan 阿珂
+        - Xualice Alice
+        - Joyee 章鱼
+        - Morris 奇犽
+
+  - type: dropdown
+    attributes:
+      label: 运营
+      multiple: false
+      options:
+        - Viola 宝姐
+        - Nancy 玉米
+        - Windy 八神
+        - Lumia 金桔
+        - Amanda 瓶子
+        - Qirui 墨染
+        - Eclipsa 团月
+
+  - type: dropdown
+    attributes:
+      label: KA管家
+      multiple: false
+      options:
+        - Dasiy 寇依
+        - Dora 可颂
+        - Bella 银子
+        - Chen 雷锋
+        - Zero 蔷薇
+        - Yu 爱意
+        - Nie 十月
+        - Simon 小葵
+        - Kk 永开
 
   - type: textarea
     attributes:
-      label: 需求来源
-      description: 请描述需求的背景/场景/产生此需求的原因
-     
+      label: Describe the bug | 问题描述
+      description: 简单描述碰到的问题
+    validations:
+      required: true
+
+  - type: input
+    attributes:
+      label: User ID | 用户ID
+      placeholder: "123456789"
+    validations:
+      required: true
+
+  - type: input
+    attributes:
+      label: Room ID | 房间ID
+      placeholder: "100000001"
+
+  - type: textarea
+    attributes:
+      label: To Reproduce | 复现步骤
+      description: 请详细描述复现的步骤
+      value: |
+        1.
+        2.
+    validations:
+      required: true
+
+  - type: textarea
+    attributes:
+      label: Expected behavior | 预期表现
+      description: 请描述正确表现
+
+  - type: textarea
+    attributes:
+      label: Screenshots | 视频/截图/Guagua截图
+      description: Guagua截图非常有用，可在测试包获得
+
+  - type: dropdown
+    attributes:
+      label: Platform | 客户端平台
+      multiple: false
+      options:
+        - iOS
+        - Android
+        - PC
+
+  - type: dropdown
+    attributes:
+      label: Source of Installation | 安装渠道
+      multiple: false
+      options:
+        - 商店
+        - 官网
+        - 测试包
+
+  - type: textarea
+    attributes:
+      label: Remark | 其它
+      description: 补充信息，如用户地区、手机型号、网络环境
