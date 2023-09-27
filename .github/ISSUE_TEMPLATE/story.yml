@@ -2,7 +2,13 @@ name: Story
 description: Create a story | 创建一个story
 labels:
 body:
-- type: textarea
+ - type: textarea
     attributes:
-label: 需求复杂度
+      label: 需求复杂度
+      description: 请描述需求的复杂程度
+
+  - type: textarea
+    attributes:
+      label: 需求来源
+      description: 请描述需求的背景/场景/产生此需求的原因
      
