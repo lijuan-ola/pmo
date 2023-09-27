@@ -4,6 +4,5 @@ labels:
 body:
 - type: textarea
     attributes:
-    value: |
-      label: 需求复杂度
+     label: 需求复杂度
      
