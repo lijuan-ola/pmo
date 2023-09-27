@@ -3,6 +3,7 @@ description: Create a story | 创建一个story
 labels:
 body:
 - type: textarea
+id: repro
     attributes:
       label: 需求复杂度
      
