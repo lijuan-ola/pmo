@@ -1,6 +1,6 @@
 name: story
 description: Create a story| 创建一个需求
-labels: story
+labels: ""
 body:
   - type: markdown
     attributes:
