@@ -36,10 +36,6 @@ body:
 
   - type: textarea
     attributes:
-      label: 4、关联task
-      description: 请使用add tasklist方式关联此需求对应的任务
+      label: 4、关联task-test
+      description: 测试pr功能
 
-- type: textarea
-    attributes:
-      label: 5、测试
-      description: pr测试
